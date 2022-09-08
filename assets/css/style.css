@@ -10,6 +10,11 @@ body{
    font-family: 'Fredoka', sans-serif;
 }
 
+a{
+   text-decoration: none;
+   color: #51C5E7;
+}
+
 
 .box-container{
    width: 90%;
@@ -71,10 +76,11 @@ body{
    width: 355px;
    height: 100px;
    margin: 20px 10px 20px 10px;
-   display: inline-block;
-   
-   
+   float: left;
    background-color: #0F0E17;
+   line-height: 1.7rem;
+
+   color: white;
 }
 
 
@@ -82,9 +88,12 @@ body{
    
    width: 100px;
    float: left;
+   margin-right: 30px;
 
 }
-
+span.role{
+   font-size: 19px;
+}
 h2.name{
-   color: white;
+   margin-top: 10px;
 }
