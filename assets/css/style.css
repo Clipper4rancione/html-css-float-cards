@@ -71,31 +71,31 @@ a{
    align-items: center;
       
 }
-
 .card-sect .card{
    width: 355px;
    height: 100px;
    margin: 20px 10px 20px 10px;
-   float: left;
-   background-color: #0F0E17;
-   line-height: 1.7rem;
 
+   float: left;
+
+   background-color: #0F0E17;
    color: white;
 
+   line-height: 1.7rem;
+   
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
 .card img{
-   
    width: 100px;
    float: left;
    margin-right: 30px;
 
 }
+
 span.role{
    font-size: 19px;
 }
+
 h3.name{
    margin-top: 10px;
    text-transform: uppercase;
