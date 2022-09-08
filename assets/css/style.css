@@ -94,6 +94,7 @@ a{
 span.role{
    font-size: 19px;
 }
-h2.name{
+h3.name{
    margin-top: 10px;
+   text-transform: uppercase;
 }
