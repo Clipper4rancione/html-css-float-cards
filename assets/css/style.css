@@ -12,9 +12,11 @@ body{
 
 
 .box-container{
-   width: 100%;
+   width: 90%;
    max-width: 1200;
    margin: 0 auto;
+   padding: 20px;
+   align-items: center;
    
 }
 
@@ -49,9 +51,9 @@ body{
 /* MAIN */
 
 .box-container .paragraph{
+   width: 100%;
    text-align: center;
    font-size: 18px;
-
    margin-top: 50px;
 }
 
@@ -59,6 +61,7 @@ body{
 
 .card-sect{
       margin-top: 45px;
+      align-items: center;
       
 }
 
@@ -70,10 +73,11 @@ body{
 }
 
 .card-sect .card{
-   width: calc(100% / 3);
+   width: calc(100% / 4);
    height: 100px;
-
+   margin: 1%;
    float: left;
+   
    
 
    background-color: #0F0E17;
