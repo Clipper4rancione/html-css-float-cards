@@ -1,5 +1,41 @@
+/* GENERALI */
+
 *{
    padding: 0;
    margin: 0;
    box-sizing: border-box;
 }
+
+body{
+   font-family: 'Fredoka', sans-serif;
+}
+
+/* UTILITY */
+
+.debug{
+   background-color: red;
+   border: 1px solid black;
+}
+
+.clearfix:after{
+   content: '';
+   display: table;
+   clear: both;
+}
+
+/*HEADER*/
+
+.header{
+   width: 100%;
+   height: 80px;
+   padding: 20px;
+   background-color: greenyellow;
+}
+
+.header h1{
+   text-align: center;
+   color: #E53170;
+}
+
+/* MAIN */
+
